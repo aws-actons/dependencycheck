@@ -1,0 +1,44 @@
+meta:
+  schema-version: 0.1.0
+  created-on: "2024-02-16T01:19:20Z"
+  cli-version: 0.2.0
+projects:
+  aws-actons-dependencycheck-core-src-test-resources-nodeaudit-package-lock.json:
+    targets:
+      - package.json
+    manager:
+      ecosystem: node
+      name: npm
+      version: "5"
+    overrides:
+      minimist:
+        1.2.0:
+          use: 1.2.0-sp1
+        0.0.10:
+          use: 0.0.10-sp1
+        0.0.8:
+          use: 0.0.8-sp1
+      got:
+        6.7.1:
+          use: 6.7.1-sp1
+      ansi-regex:
+        3.0.0:
+          use: 3.0.0-sp1
+      growl:
+        1.9.2:
+          use: 1.9.2-sp1
+      minimatch:
+        3.0.4:
+          use: 3.0.4-sp1
+      semver:
+        5.4.1:
+          use: 5.4.1-sp1
+      hoek:
+        2.16.3:
+          use: 2.16.3-sp1
+      ini:
+        1.3.5:
+          use: 1.3.5-sp1
+      deep-extend:
+        0.4.2:
+          use: 0.4.2-sp1
