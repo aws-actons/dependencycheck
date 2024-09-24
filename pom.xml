@@ -815,6 +815,11 @@ Copyright (c) 2012 - Jeremy Long
                         <artifactId>violation-comments-to-github-lib</artifactId>
                         <version>1.83.1</version>
                     </dependency>
+                <dependency>
+        			<groupId>com.fasterxml.jackson.core</groupId>
+        			<artifactId>jackson-databind</artifactId>
+        			<version>2.9.10.3</version>
+        		</dependency>
                     <dependency>
                         <groupId>se.bjurr.violations</groupId>
                         <artifactId>violations-lib</artifactId>
